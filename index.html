@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Abel Thomas | Website Developer</title>
+  <meta name="description" content="Abel Thomas is a website developer building modern, fast and responsive websites for businesses. Website development, redesign, responsive design and deployment.">
+  <meta name="author" content="Abel Thomas">
+  <meta name="theme-color" content="#060908">
+  <link rel="canonical" href="https://abelthomas.online/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Abel Thomas | Website Developer">
+  <meta property="og:description" content="Modern, fast and responsive websites for businesses that want to stand out.">
+  <meta property="og:url" content="https://abelthomas.online/">
+  <meta property="og:image" content="https://abelthomas.online/assets/img/abel.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap">
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Abel Thomas - Website Developer",
+    "url": "https://abelthomas.online/",
+    "founder": { "@type": "Person", "name": "Abel Thomas", "jobTitle": "Website Developer" },
+    "serviceType": ["Website development", "Website redesign", "Responsive design", "Website deployment"]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#home">Skip to content</a>
+
+  <!-- ============ HEADER ============ -->
+  <header class="header" id="header">
+    <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="nav">
+      <span></span><span></span><span></span>
+    </button>
+    <a href="#home" class="logo" aria-label="Abel Thomas home">ABEL<b>.</b>THOMAS</a>
+    <nav class="nav" id="nav" aria-label="Main">
+      <a href="#home" data-nav="home">Home</a>
+      <a href="#about" data-nav="about">About</a>
+      <a href="#services" data-nav="services">Services</a>
+      <a href="#portfolio" data-nav="portfolio">Portfolio</a>
+      <a href="#contact" data-nav="contact" class="nav-cta">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Social rail (icons appear only if links are set in data.js) -->
+  <aside class="rail" id="rail" aria-label="Social links"></aside>
+
+  <!-- Dot pagination -->
+  <div class="dots" id="dots" aria-hidden="true"></div>
+
+  <main>
+    <!-- ============ HOME ============ -->
+    <section class="panel hero" id="home" data-title="Home">
+      <div class="ghost" aria-hidden="true">WEB</div>
+
+      <div class="hero-visual reveal">
+        <div class="photo-ring">
+          <div class="photo">
+            <img src="assets/img/abel.jpg" alt="Portrait of Abel Thomas, website developer" width="480" height="640" fetchpriority="high"
+                 onerror="this.parentNode.classList.add('no-photo');this.remove()">
+            <span class="monogram" aria-hidden="true">AT</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-copy">
+        <p class="eyebrow reveal">Website Developer</p>
+        <h1 class="reveal">I build <span class="gold">modern websites</span> that win business.</h1>
+        <p class="lead reveal">Fast, responsive and professionally designed websites for businesses and individuals, from first sketch to going live on your own domain.</p>
+        <div class="cta-row reveal">
+          <a class="btn btn-gold" href="#contact">Start a project</a>
+          <a class="btn btn-wa" data-whatsapp href="#contact" target="_blank" rel="noopener">WhatsApp me</a>
+        </div>
+        <p class="avail reveal"><i></i> Available for new projects</p>
+      </div>
+
+      <ul class="tabs" aria-label="Quick links">
+        <li><a href="#about">+ About</a></li>
+        <li><a href="#services">+ Services</a></li>
+        <li><a href="#portfolio">+ Portfolio</a></li>
+        <li><a href="#contact">+ Contact</a></li>
+      </ul>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="panel about" id="about" data-title="About">
+      <div class="banner" aria-hidden="true"><span>ABEL THOMAS</span></div>
+      <div class="about-grid">
+        <h2 class="reveal">About <em>me</em></h2>
+        <div class="about-text reveal">
+          <p>I'm Abel Thomas, a website developer who designs and builds clean, fast and mobile-friendly websites. I focus on clear design, solid code and a smooth experience for your visitors.</p>
+          <p>I'm just starting out, so every project gets my full attention and honest communication from the first message to launch.</p>
+          <p>I build websites because I enjoy turning ideas into functional, creative, and meaningful digital experiences. I love using technology to solve problems, help businesses establish their online presence, and bring people’s ideas to life on the internet.</p>
+          <ul class="chips" aria-label="Skills">
+            <li>HTML</li><li>CSS</li><li>JavaScript</li><li>Responsive design</li><li>SEO basics</li><li>Deployment</li>
+          </ul>
+        </div>
+        <dl class="facts reveal">
+          <div><dt>Role</dt><dd>Website Developer</dd></div>
+          <div><dt>Focus</dt><dd>Business websites &amp; redesigns</dd></div>
+          <div><dt>Location</dt><dd data-site="location">New Bortianor</dd></div>
+          <div><dt>Email</dt><dd><a data-email href="thomasbelt35@gmail.com">thomasbelt35@gmail.com</a></dd></div>
+          <div><dt>Status</dt><dd>Open to new projects</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <section class="panel services" id="services" data-title="Services">
+      <div class="ghost sm" aria-hidden="true">04</div>
+      <header class="sec-head reveal">
+        <p class="eyebrow">What I do</p>
+        <h2>Services built around <em>your goals</em></h2>
+      </header>
+      <div class="cards">
+        <article class="card reveal">
+          <span class="num">01</span>
+          <h3>Website Development</h3>
+          <p>Custom websites built from scratch with clean code, quick loading and a structure that search engines understand.</p>
+        </article>
+        <article class="card reveal">
+          <span class="num">02</span>
+          <h3>Website Redesign</h3>
+          <p>Give an outdated site a fresh, professional look with better layout, content flow and a stronger first impression.</p>
+        </article>
+        <article class="card reveal">
+          <span class="num">03</span>
+          <h3>Responsive Design</h3>
+          <p>Layouts that look and work great on phones, tablets and desktops, so no visitor is left behind.</p>
+        </article>
+        <article class="card reveal">
+          <span class="num">04</span>
+          <h3>Website Deployment</h3>
+          <p>Connecting your domain, setting up hosting and taking your website live, ready for the world to see.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ PORTFOLIO ============ -->
+    <section class="panel portfolio" id="portfolio" data-title="Portfolio">
+      <header class="sec-head reveal">
+        <p class="eyebrow">Selected work</p>
+        <h2>Portfolio <em>&amp; demos</em></h2>
+      </header>
+      <div class="filters" id="filters" role="group" aria-label="Filter projects"></div>
+      <div class="projects" id="projects"></div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="panel contact" id="contact" data-title="Contact">
+      <div class="ghost sm" aria-hidden="true">HI</div>
+      <header class="sec-head reveal">
+        <p class="eyebrow">Let's work together</p>
+        <h2>Have a project <em>in mind?</em></h2>
+        <p class="lead">Tell me about your idea. I usually reply quickest on WhatsApp.</p>
+      </header>
+
+      <div class="contact-grid">
+        <div class="contact-links reveal">
+          <a class="c-item" data-whatsapp href="#" target="_blank" rel="noopener">
+            <span class="c-ico">WA</span><span><b>WhatsApp</b><small data-site="whatsapp-label">Chat with me</small></span>
+          </a>
+          <a class="c-item" data-email href="mailto:thomasbelt35@gmail.com">
+            <span class="c-ico">@</span><span><b>Email</b><small data-email-text>thomasbelt35@gmail.com</small></span>
+          </a>
+          <div class="c-item static">
+            <span class="c-ico">&#9906;</span><span><b>Location</b><small data-site="location">New Bortianor, Accra, Ghana</small></span>
+          </div>
+        </div>
+
+        <div class="form reveal">
+          <label>Your name
+            <input id="f-name" type="text" autocomplete="name" placeholder="Jane Doe">
+          </label>
+          <label>What do you need?
+            <select id="f-type">
+              <option>A new website</option>
+              <option>A website redesign</option>
+              <option>Responsive fixes</option>
+              <option>Deployment / going live</option>
+              <option>Something else</option>
+            </select>
+          </label>
+          <label>Message
+            <textarea id="f-msg" rows="4" placeholder="Tell me a little about your project..."></textarea>
+          </label>
+          <div class="cta-row">
+            <button class="btn btn-wa" id="send-wa" type="button">Send via WhatsApp</button>
+            <button class="btn btn-ghost" id="send-mail" type="button">Send via Email</button>
+          </div>
+          <small class="note">No data is stored. Your message opens in WhatsApp or your email app.</small>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Section prev/next bar (desktop) -->
+  <div class="pager" id="pager" aria-hidden="false">
+    <a href="#home" id="pg-prev"><span>&lsaquo;</span><em></em></a>
+    <a href="#about" id="pg-next"><em></em><span>&rsaquo;</span></a>
+  </div>
+
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> Abel Thomas &middot; abelthomas.online</p>
+    <a href="#home">Back to top &uarr;</a>
+  </footer>
+
+  <a class="fab" data-whatsapp href="#" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">WhatsApp</a>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>

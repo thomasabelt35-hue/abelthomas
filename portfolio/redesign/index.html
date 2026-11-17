@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Northline Engineering Website Redesign | Before &amp; After</title>
+  <meta name="description" content="Compare a credible 2016 electrical engineering company website with a contemporary 2026 redesign concept by Abel Thomas.">
+  <meta name="theme-color" content="#17212b">
+  <link rel="icon" href="after/img/site-icon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="bar"><b>REDESIGN CONCEPT</b><span>Electrical engineering &amp; power infrastructure</span><a href="../../index.html#portfolio">&larr; Back to portfolio</a></div>
+
+  <header class="intro">
+    <p class="tag">Northline Engineering &amp; Electrical · Fictional company</p>
+    <h1>Same expertise.<br><em>A more modern experience.</em></h1>
+    <p class="lead">Compare a believable 2016 corporate website with a more considered 2026 redesign. Drag the divider or use the slider controls to explore both versions.</p>
+  </header>
+
+  <main>
+    <section class="cmp wrap" aria-label="Before and after website comparison">
+      <div class="tools">
+        <div class="seg" role="group" aria-label="Preview size">
+          <button type="button" class="on" data-m="d" aria-pressed="true">Desktop</button>
+          <button type="button" data-m="m" aria-pressed="false">Mobile</button>
+        </div>
+        <div class="labels"><span>BEFORE <b>2016</b></span><span>AFTER <b>2026</b></span></div>
+      </div>
+
+      <div class="stage" id="stage">
+        <div class="scaler" id="scaler">
+          <iframe src="before/index.html" title="Before: Northline engineering website, 2016 design" loading="lazy" tabindex="-1"></iframe>
+          <iframe class="after" id="afterF" src="after/index.html" title="After: Northline engineering website, 2026 redesign" loading="lazy" tabindex="-1"></iframe>
+        </div>
+        <div class="handle" id="handle" aria-hidden="true"><span>&#8596;</span></div>
+      </div>
+      <label class="sr-only" for="range">Reveal more of the before or after website</label>
+      <input type="range" id="range" min="0" max="100" value="50" aria-label="Before and after comparison slider">
+      <p class="hint">Drag the divider, use the range slider, or press the arrow keys to compare. Previews are not scrollable.</p>
+
+      <div class="open">
+        <a class="btn line" href="before/index.html">View the 2016 version <span aria-hidden="true">↗</span></a>
+        <a class="btn" href="after/index.html">View the 2026 redesign <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+
+    <section class="wrap changes">
+      <p class="tag">What changed</p>
+      <div class="changes-heading"><h2>From conventional to considered.</h2><p>The same fictional engineering company, services and project story—reworked for clarity, confidence and today’s screens.</p></div>
+      <div class="grid">
+        <article><span>01 / STRUCTURE</span><h3>Clearer hierarchy</h3><p>Before: conventional content blocks and a standard corporate banner.</p><p>After: a focused hero, purposeful page rhythm and clear next steps.</p></article>
+        <article><span>02 / IDENTITY</span><h3>Distinctive art direction</h3><p>Before: familiar blue corporate styling and restrained typography.</p><p>After: charcoal, graphite and engineering orange with contemporary type.</p></article>
+        <article><span>03 / EXPERIENCE</span><h3>Designed for every screen</h3><p>Before: a practical fixed-width-era layout adapted for smaller screens.</p><p>After: responsive navigation, flexible sections and comfortable mobile reading.</p></article>
+      </div>
+      <p class="disclaimer">Northline Engineering &amp; Electrical is fictional. Photos are illustrative; no client projects or company claims are represented.</p>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <p>&copy; <span id="yr"></span> Redesign concept by <a href="../../index.html">Abel Thomas</a>.</p>
+    <a href="../../index.html#portfolio">Return to portfolio</a>
+  </footer>
+  <script src="js/main.js" defer></script>
+</body>
+</html>
